@@ -1,0 +1,53 @@
+
+* {box-sizing: border-box}
+  
+.main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+.banner{
+  background-color: white;
+}
+
+body, html {
+  margin: 0;
+  font-family: Arial;
+}
+
+.tablink {
+  background-color: #004165;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 20%;
+}
+
+.tablink:hover {
+  background-color: #A9B2B1;
+}
+
+.tabcontent {
+  color: black;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#About {background-color:#772432;}
+#Attend {background-color: #772432;}
+#Schedule {background-color: #772432;}
+#Resources {background-color: #772432;}
+#Join {background-color: #772432}
+
+dt {
+
+	font-weight: bold;
+	padding: 25 0 10 0;
+
+}
