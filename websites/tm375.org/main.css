@@ -1,11 +1,5 @@
 
 * {box-sizing: border-box}
-  
-.main {
-    margin-left: 160px; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
-}
 
 .banner{
   display: flex;
@@ -26,12 +20,21 @@
 }
 
 .footerbanner{
-  background-color: linear-gradient(to right, #772432, #47161e); 
+  background: linear-gradient(to right, #772432 10%, #3f131b 50%, #2e0e14 100%);
   color: white; 
   font-family: Arial;
   font-weight: bold;
   font-size: 20px;
   margin-top: 20px;
+}
+
+.mattedimage
+{
+  -webkit-box-shadow: -10px -10px 0px 0px #772432;
+  -moz-box-shadow: -10px -10px 0px 0px #772432;
+  box-shadow: -10px -10px 0px 0px #772432;
+  margin: 10px;
+  display: block;
 }
 
 .siteheader{
@@ -44,7 +47,7 @@
 }
 
 .siteheader h1{
-  margin: 50px;
+  margin: 50px 0px 5px;
   font-size: 48px;
 }
 
@@ -57,7 +60,6 @@
 
 body, html {
   margin: 0;
-  font-family: Arial;
 }
 
 .tablink {
@@ -95,7 +97,7 @@ body, html {
   color: black;
   display: none;
   padding: 20px 20px;
-  height: 100%;
+  height: auto;
 }
 
 .hyperlink
@@ -114,4 +116,34 @@ dt {
 	font-weight: bold;
 	padding: 25 0 10 0;
 
+}
+
+ /* Style all font awesome icons */
+ .fa {
+  padding: 10px;
+  margin: 10px;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: rgb(255, 123, 0);
+  color: white;
+}
+
+.fa-meetup {
+  background: rgb(255, 60, 86);
+  color: white;
 }
