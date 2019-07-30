@@ -1,0 +1,157 @@
+
+* {box-sizing: border-box}
+
+.banner{
+  display: flex;
+}
+
+.redfill{
+  background-color: #772432;
+  flex: 1;
+  z-index: -99999;
+}
+
+.bannerimage{
+  background: linear-gradient(to right,  #772432 0%, rgba(0, 0, 0, 0) 5%, rgba(0, 0, 0, 0) 90%, #772432 100%), url('./pictures/FCMountains_250.png') no-repeat;
+  width: 1024;
+  height: 250;
+  z-index: -99999;
+  color: white;
+}
+
+.footerbanner{
+  background: linear-gradient(to right, #772432 10%, #3f131b 50%, #2e0e14 100%);
+  color: white; 
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.mattedimage
+{
+  -webkit-box-shadow: -10px -10px 0px 0px #772432;
+  -moz-box-shadow: -10px -10px 0px 0px #772432;
+  box-shadow: -10px -10px 0px 0px #772432;
+  margin: 10px;
+  display: block;
+}
+
+.borderedimage
+{
+  border-style: solid; 
+  border-width: 5px;
+  border-color: #772432;
+}
+
+.siteheader{
+  color: white;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 1);
+  font-family: Arial;
+  font-weight: bold;
+  text-align: center;
+  display: inline-block;
+}
+
+.siteheader h1{
+  margin: 50px 0px 5px;
+  font-size: 48px;
+}
+
+.bannertext{
+  font-family: Arial;
+  color: white;
+  margin: 20px;
+  line-height: 90px;
+}
+
+body, html {
+  margin: 0;
+}
+
+.tablink {
+  background-color: #004165;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 20%;
+
+  -moz-box-shadow:    inset 0px -5px 10px 2px rgba(0,0,0,0.3);
+  -webkit-box-shadow: inset 0px -5px 10px 2px rgba(0,0,0,0.3);
+  box-shadow:         inset 0px -5px 10px 2px rgba(0,0,0,0.3);
+}
+
+.flex-item{
+  margin: 10px;
+}
+
+.tablink:hover {
+  background-color: #A9B2B1;
+}
+
+.tabbanner{
+  height: 50px;
+  -moz-box-shadow:    0 -10px 10px -2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 -10px 10px -2px rgba(0, 0, 0, 0.3);
+  box-shadow:         0 -10px 10px -2px rgba(0, 0, 0, 0.3);
+}
+
+.tabcontent {
+  font-family: Arial;
+  color: black;
+  display: none;
+  padding: 20px 20px;
+  height: auto;
+}
+
+.hyperlink
+{
+  color: #004165
+}
+
+#About {background-color:white;}
+#Attend {background-color: white;}
+#Schedule {background-color: white;}
+#Resources {background-color: white;}
+#Join {background-color: white;}
+
+dt {
+
+	font-weight: bold;
+	padding: 25 0 10 0;
+
+}
+
+ /* Style all font awesome icons */
+ .fa {
+  padding: 10px;
+  margin: 10px;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: rgb(255, 123, 0);
+  color: white;
+}
+
+.fa-meetup {
+  background: rgb(255, 60, 86);
+  color: white;
+}
